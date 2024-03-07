@@ -68,30 +68,30 @@ book:Book a rdfs:Class ;
     vs:term_status "experimental" .
 
 book:Editor a rdf:Property ;
-    rdfs:label "Code EC" ;
+    rdfs:label "Book" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 book:hasEditor a rdf:Property ;
-    rdfs:label "A comme editor" ;
+    rdfs:label "Gallimard" ;
     rdfs:comment "relation avec Author" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-book:hasIllustrator a rdf:Property ;
-    rdfs:label "A comme editor" ;
+book:hasEditor a rdf:Property ;
+    rdfs:label "Hachette" ;
     rdfs:comment "relation avec Graphism" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-book:hasDesigner a rdf:Property ;
-    rdfs:label "A comme editor" ;
+book:hhasEditor a rdf:Property ;
+    rdfs:label "Jailu" ;
     rdfs:comment "relation avec Graphism" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-book:hasBook a rdf:Property ;
-    rdfs:label "A comme editor" ;
+book:hasEditor a rdf:Property ;
+    rdfs:label "KDP" ;
     rdfs:comment "relation avec Publisher" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
