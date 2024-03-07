@@ -74,27 +74,295 @@ book:Editor a rdf:Property ;
 
 book:hasEditor a rdf:Property ;
     rdfs:label "Gallimard" ;
-    rdfs:comment "relation avec Author" ;
+    rdfs:comment "relation avec Editor" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 book:hasEditor a rdf:Property ;
     rdfs:label "Hachette" ;
-    rdfs:comment "relation avec Graphism" ;
+    rdfs:comment "relation avec Editor" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 book:hhasEditor a rdf:Property ;
     rdfs:label "Jailu" ;
-    rdfs:comment "relation avec Graphism" ;
+    rdfs:comment "relation avec Editor" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 book:hasEditor a rdf:Property ;
-    rdfs:label "KDP" ;
+    rdfs:label "Folio" ;
+    rdfs:comment "relation avec Editor" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasReaders a rdf:Property ;
+    rdfs:label "Read" ;
+    rdfs:comment "relation avec Readers" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasReaders a rdf:Property ;
+    rdfs:label "Interpret" ;
+    rdfs:comment "relation avec Readers" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasReaders a rdf:Property ;
+    rdfs:label "Book" ;
+    rdfs:comment "relation avec Readers" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasReaders a rdf:Property ;
+    rdfs:label "Preference" ;
+    rdfs:comment "relation avec Readers" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasIllustrator a rdf:Property ;
+    rdfs:label "Create" ;
+    rdfs:comment "relation avec Illustrator" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasIllustrator a rdf:Property ;
+    rdfs:label "Illustrations" ;
+    rdfs:comment "relation avec Illustrator" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasIllustrator a rdf:Property ;
+    rdfs:label "Mediums" ;
+    rdfs:comment "relation avec Illustrator" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasIllustrator a rdf:Property ;
+    rdfs:label "Drawing" ;
+    rdfs:comment "relation avec Illustrator" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasIllustrator a rdf:Property ;
+    rdfs:label "Painting" ;
+    rdfs:comment "relation avec Illustrator" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasIllustrator a rdf:Property ;
+    rdfs:label "Art" ;
+    rdfs:comment "relation avec Illustrator" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasDrawer a rdf:Property ;
+    rdfs:label "Drawing" ;
+    rdfs:comment "relation avec Drawer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ 
+book:hasDrawer a rdf:Property ;
+    rdfs:label "Handmade" ;
+    rdfs:comment "relation avec Drawer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" . 
+
+book:hasDrawer a rdf:Property ;
+    rdfs:label "Online" ;
+    rdfs:comment "relation avec Drawer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" . 
+
+book:hasDesigner a rdf:Property ;
+    rdfs:label "Online" ;
+    rdfs:comment "relation avec Designer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasDesigner a rdf:Property ;
+    rdfs:label "Concept" ;
+    rdfs:comment "relation avec Designer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasDesigner a rdf:Property ;
+    rdfs:label "Support" ;
+    rdfs:comment "relation avec Designer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasDesigner a rdf:Property ;
+    rdfs:label "Interface" ;
+    rdfs:comment "relation avec Designer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasDesigner a rdf:Property ;
+    rdfs:label "Design" ;
+    rdfs:comment "relation avec Designer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasDesigner a rdf:Property ;
+    rdfs:label "Tools" ;
+    rdfs:comment "relation avec Designer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasGraphism a rdf:Property ;
+    rdfs:label "Manipulate" ;
+    rdfs:comment "relation avec Graphism" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasGraphism a rdf:Property ;
+    rdfs:label "Create" ;
+    rdfs:comment "relation avec Graphism" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasGraphism a rdf:Property ;
+    rdfs:label "Visuals" ;
+    rdfs:comment "relation avec Graphism" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasGraphism a rdf:Property ;
+    rdfs:label "Illustration" ;
+    rdfs:comment "relation avec Graphism" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasGraphism a rdf:Property ;
+    rdfs:label "Concept" ;
+    rdfs:comment "relation avec Graphism" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasLibrary a rdf:Property ;
+    rdfs:label "Place" ;
+    rdfs:comment "relation avec Library" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasLibrary a rdf:Property ;
+    rdfs:label "Information" ;
+    rdfs:comment "relation avec Library" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasLibrary a rdf:Property ;
+    rdfs:label "Ressources" ;
+    rdfs:comment "relation avec Library" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasLibrary a rdf:Property ;
+    rdfs:label "Books" ;
+    rdfs:comment "relation avec Library" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasLibrary a rdf:Property ;
+    rdfs:label "Class" ;
+    rdfs:comment "relation avec Library" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasAuthor a rdf:Property ;
+    rdfs:label "NonFiction" ;
+    rdfs:comment "relation avec Author" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasAuthor a rdf:Property ;
+    rdfs:label "Fiction" ;
+    rdfs:comment "relation avec Author" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasAuthor a rdf:Property ;
+    rdfs:label "Books" ;
+    rdfs:comment "relation avec Author" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasAuthor a rdf:Property ;
+    rdfs:label "Poems" ;
+    rdfs:comment "relation avec Author" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasAuthor a rdf:Property ;
+    rdfs:label "Write" ;
+    rdfs:comment "relation avec Author" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasAuthor a rdf:Property ;
+    rdfs:label "Create" ;
+    rdfs:comment "relation avec Author" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ 
+book:hasPrinter a rdf:Property ;
+    rdfs:label "Manipulate" ;
+    rdfs:comment "relation avec Printer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasPrinter a rdf:Property ;
+    rdfs:label "Product" ;
+    rdfs:comment "relation avec Printer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasPrinter a rdf:Property ;
+    rdfs:label "Mecanism" ;
+    rdfs:comment "relation avec Printer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasPrinter a rdf:Property ;
+    rdfs:label "Print" ;
+    rdfs:comment "relation avec Printer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasPublisher a rdf:Property ;
+    rdfs:label "Communication" ;
     rdfs:comment "relation avec Publisher" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+book:hasPublisher a rdf:Property ;
+    rdfs:label "Marketing" ;
+    rdfs:comment "relation avec Publisher" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasPublisher a rdf:Property ;
+    rdfs:label "Chef" ;
+    rdfs:comment "relation avec Publisher" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+book:hasPublisher a rdf:Property ;
+    rdfs:label "Product" ;
+    rdfs:comment "relation avec Publisher" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+
+
+
+
+
 
 
 
