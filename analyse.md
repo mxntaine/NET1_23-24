@@ -4,6 +4,7 @@ Si aujourd’hui le livre est considéré comme une marchandise, il est avant to
 
 ## Le vocabulaire 
 
+Pour mon dommaine de connaissance, j'ai selectionné un ensemble de classes et de propriétés qui pouvaient donc mettre en avant ces différents domaines du livre. Par exemple, la classe "Editors" présente les différents éditeurs qui existent dans le domaine du livre, tandis que la classe "Authors" présente les différents types d'auteurs. La classe "Graphist"  et "Illustrator" met en avant les corps de métiers les plus manuels et les plus oubliés alors qu'ils sont pourtant la première chose que l'on voit avant même de lire un résumé ou lire le nom de l'auteur ou de l'éiteur. 
 
 ## Les ressources template
 
