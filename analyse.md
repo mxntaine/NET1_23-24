@@ -4,7 +4,11 @@ Si aujourd’hui le livre est considéré comme une marchandise, il est avant to
 
 ## Le vocabulaire 
 
-Pour mon dommaine de connaissance, j'ai selectionné un ensemble de classes et de propriétés qui pouvaient donc mettre en avant ces différents domaines du livre. Par exemple, la classe "Editors" présente les différents éditeurs qui existent dans le domaine du livre (cf. _figure 1_), tandis que la classe "Authors" présente les différents types d'auteurs. La classe "Graphist"  et "Illustrator" met en avant les corps de métiers les plus manuels et les plus oubliés alors qu'ils sont pourtant la première chose que l'on voit avant même de lire un résumé ou lire le nom de l'auteur ou de l'éiteur. 
+Le [vocabulaire](https://net-24.jardindesconnaissances.fr/admin/vocabulary/10/classes) fait référence aux ensembles de termes utilisés pour décrire et organiser les éléments. Pour mon dommaine de connaissance, j'ai selectionné un ensemble de classes et de propriétés qui pouvaient donc mettre en avant ces différents domaines du livre. Par exemple, la classe "Editors" permet de découvrir différentes maisons d'éditions qui travaillent dans le domaine du livre, ou par exemple la classe "Graphism" qui explique les différents aspects du métier et met en avant l'aspect plus manuel. 
+
+## Les items
+
+Les [items](https://net-24.jardindesconnaissances.fr/admin/item?owner_id=7) sont les éléments de contenu qui représentent un objet numérique spécifique qui est ajouté à la collection numérique. Par exemple, dans la collection "Editors", chaque maison d'édition est un item (cf. _figure 1_).
 
 _Figure 1 :_ 
 book:hasEditor a rdf:Property ;
@@ -13,10 +17,13 @@ book:hasEditor a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+
 ## Les ressources template
 
+Les [ressources template](https://net-24.jardindesconnaissances.fr/admin/resource-template/4) sont des modèles qui permettent de structurer la présentation visuelle et le contenu de nos pages. Pour le sujet des métiers du livre, es ressources template pour "Editors" permettent d'avoir des informations à propos de chaque maison d'édition. Par exemple, pour "Gallimard", nous pouvons trouver le titre de l'éditeur, l'emplacement de l'éditeur ainsi que sa description. 
 
-## Les items
 
 
-## illustrer en créant un lien vers la base omeka par exemple : https://net-24.jardindesconnaissances.fr/admin/item/250  
+
+
+
